@@ -98,3 +98,10 @@ Build tools (Jenkins, GitHub Actions, etc.) send metrics via REST API to the bac
 
 ## 8. Assistant Guide
 Assistants should generate clear, actionable prompts for Copilot/Grok to implement features. Keep commits atomic (one feature per commit). Run full test suite after each phase. Update ASSISTANT_STATE.md with progress. Use tools for file creation/editing, validate with tests. Prioritize backlog tasks, mark as in-progress when starting, completed when done.
+
+## 9. Continuous Improvement Notes
+- Add WebSocket event flow from backend to frontend for real-time chart updates.
+- Include static analysis (ruff, mypy, eslint) in CI pipeline.
+- Configure Terraform remote state (S3 + DynamoDB lock) before Phase 5 deploys.
+- Add image vulnerability scan (Trivy) and dependency alerts.
+- Extend observability stack with centralized log collection.
