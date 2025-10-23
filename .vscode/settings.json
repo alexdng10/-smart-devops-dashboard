@@ -1,0 +1,6 @@
+{
+  "python.analysis.extraPaths": ["./", "./apps"],
+  "python.defaultInterpreterPath": "/Users/alexdang/miniforge3/bin/python3.10",
+  "python.pythonPath": "/Users/alexdang/miniforge3/bin/python3.10",
+  "python.analysis.packageRoots": ["./apps"]
+}
